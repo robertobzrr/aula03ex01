@@ -1,0 +1,7 @@
+public class Nums {
+
+    double num1;
+    double num2;
+
+
+}
