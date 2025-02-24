@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        Pessoa p = new Pessoa();
+
+        System.out.println("Write your name: ");
+        p.name = sc.nextLine();
+
+        System.out.println("Write your age: ");
+        p.age = sc.nextInt();
+
+        System.out.println("Write your CPF: ");
+        p.cpf = sc.nextInt();
+
+
+        System.out.println("Username: "+ p.name + "\nAge: "+ p.age+"\nCPF: "+ p.cpf);
+
+
+        p.fazAniversario();
+        System.out.println("next year your age will be: "+ p.age);
+
+
+
+
+
+
+    }
+}
